@@ -1,0 +1,370 @@
+[
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "load_summarize_chain",
+        "importPath": "langchain.chains.summarize",
+        "description": "langchain.chains.summarize",
+        "isExtraImport": true,
+        "detail": "langchain.chains.summarize",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGroq",
+        "importPath": "langchain_groq",
+        "description": "langchain_groq",
+        "isExtraImport": true,
+        "detail": "langchain_groq",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceEmbeddings",
+        "importPath": "langchain_huggingface",
+        "description": "langchain_huggingface",
+        "isExtraImport": true,
+        "detail": "langchain_huggingface",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "KMeans",
+        "importPath": "sklearn.cluster",
+        "description": "sklearn.cluster",
+        "isExtraImport": true,
+        "detail": "sklearn.cluster",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "pymupdf4llm",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pymupdf4llm",
+        "description": "pymupdf4llm",
+        "detail": "pymupdf4llm",
+        "documentation": {}
+    },
+    {
+        "label": "fitz",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fitz",
+        "description": "fitz",
+        "detail": "fitz",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleTranslator",
+        "importPath": "deep_translator",
+        "description": "deep_translator",
+        "isExtraImport": true,
+        "detail": "deep_translator",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_pdf",
+        "importPath": "app.services.parser",
+        "description": "app.services.parser",
+        "isExtraImport": true,
+        "detail": "app.services.parser",
+        "documentation": {}
+    },
+    {
+        "label": "split_into_chunks",
+        "importPath": "app.services.parser",
+        "description": "app.services.parser",
+        "isExtraImport": true,
+        "detail": "app.services.parser",
+        "documentation": {}
+    },
+    {
+        "label": "split_summaries",
+        "importPath": "app.services.chain",
+        "description": "app.services.chain",
+        "isExtraImport": true,
+        "detail": "app.services.chain",
+        "documentation": {}
+    },
+    {
+        "label": "prepare_final_summary",
+        "importPath": "app.services.chain",
+        "description": "app.services.chain",
+        "isExtraImport": true,
+        "detail": "app.services.chain",
+        "documentation": {}
+    },
+    {
+        "label": "return_closest_indices",
+        "importPath": "app.services.closest",
+        "description": "app.services.closest",
+        "isExtraImport": true,
+        "detail": "app.services.closest",
+        "documentation": {}
+    },
+    {
+        "label": "split_summaries",
+        "kind": 2,
+        "importPath": "backend.app.services.chain",
+        "description": "backend.app.services.chain",
+        "peekOfCode": "def split_summaries(selected_indices, docs):\n    map_prompt = \"\"\"\n    You will receive a passage from a research paper enclosed in triple backticks (```).\nYour task is to provide a comprehensive and informative summary of this section.\n**Extract and format the following elements if present in the passage:**\n*   **Title:**  [Title of the Section]\n*   **Authors:**  [List all authors]\n*   **Abstract:**  [Abstract of the Section]\n**If these elements are not present, leave the corresponding sections blank.**\n**Provide a detailed summary of the section, ensuring clarity and accuracy. The length of the summary should be appropriate to the content and complexity of the section. Aim for a minimum of three paragraphs for each summary.**",
+        "detail": "backend.app.services.chain",
+        "documentation": {}
+    },
+    {
+        "label": "prepare_final_summary",
+        "kind": 2,
+        "importPath": "backend.app.services.chain",
+        "description": "backend.app.services.chain",
+        "peekOfCode": "def prepare_final_summary(summary_list):\n    summaries = \"\\n\".join(summary_list)\n    summaries = Document(page_content=summaries)\n    print (f\"Your total summary has {llm.get_num_tokens(summaries.page_content)} tokens\")\n    combine_prompt = \"\"\"\n    You are an expert at synthesising information from multiple sources. You will be provided with a set of summaries from the same research paper, enclosed in triple backticks (```).  Your task is to integrate these summaries into a single, comprehensive, and coherent verbose summary.\nEnsure your final summary includes the following sections, extracted from the individual summaries:\n*   Title: [Title of the Research Paper]\n*   Authors: [List all authors]\n*   Abstract: [Abstract of the Research Paper]",
+        "detail": "backend.app.services.chain",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"GOOGLE_API_KEY\"]",
+        "kind": 5,
+        "importPath": "backend.app.services.chain",
+        "description": "backend.app.services.chain",
+        "peekOfCode": "os.environ[\"GOOGLE_API_KEY\"] = \"AIzaSyCXz5o_ZTsrjfRzKdJrrIT_4tQGNcBqkz4\"\nos.environ[\"GROQ_API_KEY\"] = \"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\"\nllm = ChatGoogleGenerativeAI(\n    model=\"gemini-1.5-pro\",\n    temperature=0,\n    max_tokens=None,\n    timeout=None,\n    max_retries=2,\n)\ndef split_summaries(selected_indices, docs):",
+        "detail": "backend.app.services.chain",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"GROQ_API_KEY\"]",
+        "kind": 5,
+        "importPath": "backend.app.services.chain",
+        "description": "backend.app.services.chain",
+        "peekOfCode": "os.environ[\"GROQ_API_KEY\"] = \"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\"\nllm = ChatGoogleGenerativeAI(\n    model=\"gemini-1.5-pro\",\n    temperature=0,\n    max_tokens=None,\n    timeout=None,\n    max_retries=2,\n)\ndef split_summaries(selected_indices, docs):\n    map_prompt = \"\"\"",
+        "detail": "backend.app.services.chain",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "backend.app.services.chain",
+        "description": "backend.app.services.chain",
+        "peekOfCode": "llm = ChatGoogleGenerativeAI(\n    model=\"gemini-1.5-pro\",\n    temperature=0,\n    max_tokens=None,\n    timeout=None,\n    max_retries=2,\n)\ndef split_summaries(selected_indices, docs):\n    map_prompt = \"\"\"\n    You will receive a passage from a research paper enclosed in triple backticks (```).",
+        "detail": "backend.app.services.chain",
+        "documentation": {}
+    },
+    {
+        "label": "return_closest_indices",
+        "kind": 2,
+        "importPath": "backend.app.services.closest",
+        "description": "backend.app.services.closest",
+        "peekOfCode": "def return_closest_indices(docs):\n    vectors = hf.embed_documents([x.page_content for x in docs])\n    num_clusters = 5\n    while (len(vectors) <= num_clusters):\n        num_clusters -= 1\n    kmeans = KMeans(n_clusters=num_clusters, random_state=42).fit(vectors)\n    closest_indices = []\n    for i in range(num_clusters):\n        distances = np.linalg.norm(vectors - kmeans.cluster_centers_[i], axis=1)\n        closest_index = np.argmin(distances)",
+        "detail": "backend.app.services.closest",
+        "documentation": {}
+    },
+    {
+        "label": "model_name",
+        "kind": 5,
+        "importPath": "backend.app.services.closest",
+        "description": "backend.app.services.closest",
+        "peekOfCode": "model_name = \"sentence-transformers/all-MiniLM-L12-v2\"\nmodel_kwargs = {'device': 'cpu', 'trust_remote_code':True}\nencode_kwargs = {'normalize_embeddings': False}\nhf = HuggingFaceEmbeddings(\n    model_name=model_name,\n    model_kwargs=model_kwargs,\n    encode_kwargs=encode_kwargs,\n)\ndef return_closest_indices(docs):\n    vectors = hf.embed_documents([x.page_content for x in docs])",
+        "detail": "backend.app.services.closest",
+        "documentation": {}
+    },
+    {
+        "label": "model_kwargs",
+        "kind": 5,
+        "importPath": "backend.app.services.closest",
+        "description": "backend.app.services.closest",
+        "peekOfCode": "model_kwargs = {'device': 'cpu', 'trust_remote_code':True}\nencode_kwargs = {'normalize_embeddings': False}\nhf = HuggingFaceEmbeddings(\n    model_name=model_name,\n    model_kwargs=model_kwargs,\n    encode_kwargs=encode_kwargs,\n)\ndef return_closest_indices(docs):\n    vectors = hf.embed_documents([x.page_content for x in docs])\n    num_clusters = 5",
+        "detail": "backend.app.services.closest",
+        "documentation": {}
+    },
+    {
+        "label": "encode_kwargs",
+        "kind": 5,
+        "importPath": "backend.app.services.closest",
+        "description": "backend.app.services.closest",
+        "peekOfCode": "encode_kwargs = {'normalize_embeddings': False}\nhf = HuggingFaceEmbeddings(\n    model_name=model_name,\n    model_kwargs=model_kwargs,\n    encode_kwargs=encode_kwargs,\n)\ndef return_closest_indices(docs):\n    vectors = hf.embed_documents([x.page_content for x in docs])\n    num_clusters = 5\n    while (len(vectors) <= num_clusters):",
+        "detail": "backend.app.services.closest",
+        "documentation": {}
+    },
+    {
+        "label": "hf",
+        "kind": 5,
+        "importPath": "backend.app.services.closest",
+        "description": "backend.app.services.closest",
+        "peekOfCode": "hf = HuggingFaceEmbeddings(\n    model_name=model_name,\n    model_kwargs=model_kwargs,\n    encode_kwargs=encode_kwargs,\n)\ndef return_closest_indices(docs):\n    vectors = hf.embed_documents([x.page_content for x in docs])\n    num_clusters = 5\n    while (len(vectors) <= num_clusters):\n        num_clusters -= 1",
+        "detail": "backend.app.services.closest",
+        "documentation": {}
+    },
+    {
+        "label": "split_into_chunks",
+        "kind": 2,
+        "importPath": "backend.app.services.parser",
+        "description": "backend.app.services.parser",
+        "peekOfCode": "def split_into_chunks(text, chunk_size: int = 10000, chunk_overlap: int = 500):\n    text_splitter = RecursiveCharacterTextSplitter(\n        chunk_size = chunk_size, chunk_overlap=chunk_overlap\n    )\n    chunks = text_splitter.create_documents([text])\n    chunk_texts = [chunk.page_content for chunk in chunks]\n    return chunks",
+        "detail": "backend.app.services.parser",
+        "documentation": {}
+    },
+    {
+        "label": "translate_text",
+        "kind": 2,
+        "importPath": "backend.app.services.translator",
+        "description": "backend.app.services.translator",
+        "peekOfCode": "def translate_text(src, dest_lang):\n    obj = GoogleTranslator(source='auto', target=dest_lang)\n    result = obj.translate(src)\n    return result",
+        "detail": "backend.app.services.translator",
+        "documentation": {}
+    },
+    {
+        "label": "langs_list",
+        "kind": 5,
+        "importPath": "backend.app.services.translator",
+        "description": "backend.app.services.translator",
+        "peekOfCode": "langs_list = GoogleTranslator().get_supported_languages()\nlangs_dict = GoogleTranslator().get_supported_languages(as_dict=True)\ndef translate_text(src, dest_lang):\n    obj = GoogleTranslator(source='auto', target=dest_lang)\n    result = obj.translate(src)\n    return result",
+        "detail": "backend.app.services.translator",
+        "documentation": {}
+    },
+    {
+        "label": "langs_dict",
+        "kind": 5,
+        "importPath": "backend.app.services.translator",
+        "description": "backend.app.services.translator",
+        "peekOfCode": "langs_dict = GoogleTranslator().get_supported_languages(as_dict=True)\ndef translate_text(src, dest_lang):\n    obj = GoogleTranslator(source='auto', target=dest_lang)\n    result = obj.translate(src)\n    return result",
+        "detail": "backend.app.services.translator",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "class Config:\n    APPNAME = \"Research Paper Summarizer\"\n    PORT = int(os.getenv(\"PORT\", 8000))\n    GOOGLE_API_KEY = os.getenv(\"GOOGLE_API_KEY\")\n    GROQ_API_KEY = os.getenv(\"GROQ_API_KEY\")\n    HUGGINGFACE_API_KEY = os.getenv(\"HUGGINGFACE_API_KEY\")\nos.environ[\"GOOGLE_API_KEY\"] = Config.GOOGLE_API_KEY or \"\"\nos.environ[\"GROQ_API_KEY\"] = Config.GROQ_API_KEY or \"\"\nos.environ[\"HUGGINGFACE_API_KEY\"] = Config.HUGGINGFACE_API_KEY or \"\"",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"GOOGLE_API_KEY\"]",
+        "kind": 5,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "os.environ[\"GOOGLE_API_KEY\"] = Config.GOOGLE_API_KEY or \"\"\nos.environ[\"GROQ_API_KEY\"] = Config.GROQ_API_KEY or \"\"\nos.environ[\"HUGGINGFACE_API_KEY\"] = Config.HUGGINGFACE_API_KEY or \"\"",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"GROQ_API_KEY\"]",
+        "kind": 5,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "os.environ[\"GROQ_API_KEY\"] = Config.GROQ_API_KEY or \"\"\nos.environ[\"HUGGINGFACE_API_KEY\"] = Config.HUGGINGFACE_API_KEY or \"\"",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"HUGGINGFACE_API_KEY\"]",
+        "kind": 5,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "os.environ[\"HUGGINGFACE_API_KEY\"] = Config.HUGGINGFACE_API_KEY or \"\"",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "app = FastAPI()\n@app.post(\"/summarize\")\nasync def process_pdf(file: UploadFile = File(...)):\n    c = time.time()\n    contents = await extract_text_from_pdf(file)\n    chunks = split_into_chunks(contents)\n    selected_indices = return_closest_indices(chunks)\n    summaries = split_summaries(selected_indices, chunks)\n    result = prepare_final_summary(summaries)\n    result = result[\"output_text\"]",
+        "detail": "backend.app.main",
+        "documentation": {}
+    }
+]

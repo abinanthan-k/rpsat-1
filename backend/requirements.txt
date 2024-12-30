@@ -1,0 +1,11 @@
+langchain
+tiktoken
+langchain_huggingface
+pymupdf
+fastapi
+pymupdf4llm
+langchain-groq
+langchain-google-genai
+scikit-learn
+deep-translator
+python-dotenv
