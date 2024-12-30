@@ -6,8 +6,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_groq import ChatGroq
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCXz5o_ZTsrjfRzKdJrrIT_4tQGNcBqkz4"
-os.environ["GROQ_API_KEY"] = "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"
+
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-1.5-pro",
