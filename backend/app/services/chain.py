@@ -75,7 +75,7 @@ VERBOSE SUMMARY:
     reduce_chain = load_summarize_chain(llm=reduce_llm,
                              chain_type="stuff",
                              prompt=combine_prompt_template,
-                             verbose=True)
+                             verbose=False)
     print("Runnning summaries....")
     output = reduce_chain.invoke([summaries])
     print(output)

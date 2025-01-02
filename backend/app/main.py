@@ -4,6 +4,8 @@ from app.services.parser import extract_text_from_pdf, split_into_chunks
 from app.services.chain import split_summaries, prepare_final_summary
 from app.services.closest import return_closest_indices
 
+from app.services.translator import translate_text
+
 app = FastAPI()
 @app.post("/summarize")
 async def process_pdf(file: UploadFile = File(...)):
@@ -14,5 +16,6 @@ async def process_pdf(file: UploadFile = File(...)):
     summaries = split_summaries(selected_indices, chunks)
     result = prepare_final_summary(summaries)
     result = result["output_text"]
+    result = translate_text(result, 'es')
     ans = time.time() - c
     return {"Summary": result, "Done in: ": ans}

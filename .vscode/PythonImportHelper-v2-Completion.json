@@ -197,6 +197,14 @@
         "documentation": {}
     },
     {
+        "label": "translate_text",
+        "importPath": "app.services.translator",
+        "description": "app.services.translator",
+        "isExtraImport": true,
+        "detail": "app.services.translator",
+        "documentation": {}
+    },
+    {
         "label": "split_summaries",
         "kind": 2,
         "importPath": "backend.app.services.chain",
@@ -211,24 +219,6 @@
         "importPath": "backend.app.services.chain",
         "description": "backend.app.services.chain",
         "peekOfCode": "def prepare_final_summary(summary_list):\n    summaries = \"\\n\".join(summary_list)\n    summaries = Document(page_content=summaries)\n    print (f\"Your total summary has {llm.get_num_tokens(summaries.page_content)} tokens\")\n    combine_prompt = \"\"\"\n    You are an expert at synthesising information from multiple sources. You will be provided with a set of summaries from the same research paper, enclosed in triple backticks (```).  Your task is to integrate these summaries into a single, comprehensive, and coherent verbose summary.\nEnsure your final summary includes the following sections, extracted from the individual summaries:\n*   Title: [Title of the Research Paper]\n*   Authors: [List all authors]\n*   Abstract: [Abstract of the Research Paper]",
-        "detail": "backend.app.services.chain",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"GOOGLE_API_KEY\"]",
-        "kind": 5,
-        "importPath": "backend.app.services.chain",
-        "description": "backend.app.services.chain",
-        "peekOfCode": "os.environ[\"GOOGLE_API_KEY\"] = \"AIzaSyCXz5o_ZTsrjfRzKdJrrIT_4tQGNcBqkz4\"\nos.environ[\"GROQ_API_KEY\"] = \"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\"\nllm = ChatGoogleGenerativeAI(\n    model=\"gemini-1.5-pro\",\n    temperature=0,\n    max_tokens=None,\n    timeout=None,\n    max_retries=2,\n)\ndef split_summaries(selected_indices, docs):",
-        "detail": "backend.app.services.chain",
-        "documentation": {}
-    },
-    {
-        "label": "os.environ[\"GROQ_API_KEY\"]",
-        "kind": 5,
-        "importPath": "backend.app.services.chain",
-        "description": "backend.app.services.chain",
-        "peekOfCode": "os.environ[\"GROQ_API_KEY\"] = \"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\"\nllm = ChatGoogleGenerativeAI(\n    model=\"gemini-1.5-pro\",\n    temperature=0,\n    max_tokens=None,\n    timeout=None,\n    max_retries=2,\n)\ndef split_summaries(selected_indices, docs):\n    map_prompt = \"\"\"",
         "detail": "backend.app.services.chain",
         "documentation": {}
     },
@@ -300,7 +290,7 @@
         "kind": 2,
         "importPath": "backend.app.services.translator",
         "description": "backend.app.services.translator",
-        "peekOfCode": "def translate_text(src, dest_lang):\n    obj = GoogleTranslator(source='auto', target=dest_lang)\n    result = obj.translate(src)\n    return result",
+        "peekOfCode": "def translate_text(src, dest_lang):\n    obj = GoogleTranslator(source='auto', target=dest_lang)\n    words = list(src.split(\" \"))\n    result = []\n    index = 0\n    while index <= len(words):\n        text_needed = \" \".join(words[index:index+100])\n        result.append(obj.translate(text_needed))\n        index += 100\n    return \" \".join(result)",
         "detail": "backend.app.services.translator",
         "documentation": {}
     },
@@ -309,7 +299,7 @@
         "kind": 5,
         "importPath": "backend.app.services.translator",
         "description": "backend.app.services.translator",
-        "peekOfCode": "langs_list = GoogleTranslator().get_supported_languages()\nlangs_dict = GoogleTranslator().get_supported_languages(as_dict=True)\ndef translate_text(src, dest_lang):\n    obj = GoogleTranslator(source='auto', target=dest_lang)\n    result = obj.translate(src)\n    return result",
+        "peekOfCode": "langs_list = GoogleTranslator().get_supported_languages()\nlangs_dict = GoogleTranslator().get_supported_languages(as_dict=True)\ndef translate_text(src, dest_lang):\n    obj = GoogleTranslator(source='auto', target=dest_lang)\n    words = list(src.split(\" \"))\n    result = []\n    index = 0\n    while index <= len(words):\n        text_needed = \" \".join(words[index:index+100])\n        result.append(obj.translate(text_needed))",
         "detail": "backend.app.services.translator",
         "documentation": {}
     },
@@ -318,7 +308,7 @@
         "kind": 5,
         "importPath": "backend.app.services.translator",
         "description": "backend.app.services.translator",
-        "peekOfCode": "langs_dict = GoogleTranslator().get_supported_languages(as_dict=True)\ndef translate_text(src, dest_lang):\n    obj = GoogleTranslator(source='auto', target=dest_lang)\n    result = obj.translate(src)\n    return result",
+        "peekOfCode": "langs_dict = GoogleTranslator().get_supported_languages(as_dict=True)\ndef translate_text(src, dest_lang):\n    obj = GoogleTranslator(source='auto', target=dest_lang)\n    words = list(src.split(\" \"))\n    result = []\n    index = 0\n    while index <= len(words):\n        text_needed = \" \".join(words[index:index+100])\n        result.append(obj.translate(text_needed))\n        index += 100",
         "detail": "backend.app.services.translator",
         "documentation": {}
     },
