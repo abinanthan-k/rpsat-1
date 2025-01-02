@@ -8,15 +8,6 @@
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
         "label": "Document",
         "importPath": "langchain.schema",
         "description": "langchain.schema",
@@ -113,6 +104,15 @@
         "description": "deep_translator",
         "isExtraImport": true,
         "detail": "deep_translator",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
         "documentation": {}
     },
     {
@@ -281,7 +281,7 @@
         "kind": 2,
         "importPath": "backend.app.services.parser",
         "description": "backend.app.services.parser",
-        "peekOfCode": "def split_into_chunks(text, chunk_size: int = 10000, chunk_overlap: int = 500):\n    text_splitter = RecursiveCharacterTextSplitter(\n        chunk_size = chunk_size, chunk_overlap=chunk_overlap\n    )\n    chunks = text_splitter.create_documents([text])\n    chunk_texts = [chunk.page_content for chunk in chunks]\n    return chunks",
+        "peekOfCode": "def split_into_chunks(text, chunk_size: int = 10000, chunk_overlap: int = 500):\n    text_splitter = RecursiveCharacterTextSplitter(\n        chunk_size = chunk_size, chunk_overlap=chunk_overlap\n    )\n    chunks = text_splitter.create_documents([text])\n    # chunk_texts = [chunk.page_content for chunk in chunks]\n    return chunks",
         "detail": "backend.app.services.parser",
         "documentation": {}
     },
