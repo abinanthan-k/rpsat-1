@@ -9,6 +9,10 @@ from services.translator import translate_text
 app = Flask(__name__)
 CORS(app)  # Enable CORS
 
+@app.route("/health"):
+def heath():
+    return jsonify({"Status": "Good"})
+
 @app.route('/summarize', methods=['POST'])
 def process_pdf():
     print("Runnning well...")
