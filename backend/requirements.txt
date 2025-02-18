@@ -2,7 +2,9 @@ langchain
 tiktoken
 langchain_huggingface
 pymupdf
-fastapi
+flask
+pdfplumber
+flask-cors
 pymupdf4llm
 langchain-groq
 langchain-google-genai
