@@ -9,7 +9,7 @@ from services.translator import translate_text
 app = Flask(__name__)
 CORS(app)  # Enable CORS
 
-@app.route("/health"):
+@app.route("/health")
 def heath():
     return jsonify({"Status": "Good"})
 
