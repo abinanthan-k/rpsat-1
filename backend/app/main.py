@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import time
+import os
 from services.parser import extract_text_from_pdf, split_into_chunks
 from services.chain import split_summaries, prepare_final_summary
 from services.closest import return_closest_indices
