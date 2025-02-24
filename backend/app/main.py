@@ -42,5 +42,5 @@ def process_pdf():
     return jsonify({"Summary": result, "Done in": ans})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
 # host=os.getenv('HOST', '0.0.0.0'), port=int(os.getenv('PORT', 8080)),
