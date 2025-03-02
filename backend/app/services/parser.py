@@ -26,4 +26,8 @@ def split_into_chunks(text, chunk_size: int = 10000, chunk_overlap: int = 500):
     )
     chunks = text_splitter.create_documents([text])
     # chunk_texts = [chunk.page_content for chunk in chunks]
+<<<<<<< HEAD
     return chunks
+=======
+    return chunks
+>>>>>>> 20d39cb1dd08c6d22eaf94805a2bbb79e3e659e0

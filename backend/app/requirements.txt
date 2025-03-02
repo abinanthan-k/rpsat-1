@@ -5,6 +5,7 @@ pymupdf
 flask
 pdfplumber
 flask-cors
+uvicorn
 pymupdf4llm
 langchain-groq
 langchain-google-genai

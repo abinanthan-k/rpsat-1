@@ -476,6 +476,38 @@
         "documentation": {}
     },
     {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "CORS",
+        "importPath": "flask_cors",
+        "description": "flask_cors",
+        "isExtraImport": true,
+        "detail": "flask_cors",
+        "documentation": {}
+    },
+    {
         "label": "CORS",
         "importPath": "flask_cors",
         "description": "flask_cors",
@@ -490,6 +522,22 @@
         "importPath": "time",
         "description": "time",
         "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_pdf",
+        "importPath": "services.parser",
+        "description": "services.parser",
+        "isExtraImport": true,
+        "detail": "services.parser",
+        "documentation": {}
+    },
+    {
+        "label": "split_into_chunks",
+        "importPath": "services.parser",
+        "description": "services.parser",
+        "isExtraImport": true,
+        "detail": "services.parser",
         "documentation": {}
     },
     {
@@ -525,11 +573,43 @@
         "documentation": {}
     },
     {
+        "label": "split_summaries",
+        "importPath": "services.chain",
+        "description": "services.chain",
+        "isExtraImport": true,
+        "detail": "services.chain",
+        "documentation": {}
+    },
+    {
+        "label": "prepare_final_summary",
+        "importPath": "services.chain",
+        "description": "services.chain",
+        "isExtraImport": true,
+        "detail": "services.chain",
+        "documentation": {}
+    },
+    {
         "label": "return_closest_indices",
         "importPath": "services.closest",
         "description": "services.closest",
         "isExtraImport": true,
         "detail": "services.closest",
+        "documentation": {}
+    },
+    {
+        "label": "return_closest_indices",
+        "importPath": "services.closest",
+        "description": "services.closest",
+        "isExtraImport": true,
+        "detail": "services.closest",
+        "documentation": {}
+    },
+    {
+        "label": "translate_text",
+        "importPath": "services.translator",
+        "description": "services.translator",
+        "isExtraImport": true,
+        "detail": "services.translator",
         "documentation": {}
     },
     {
@@ -980,7 +1060,7 @@
         "kind": 2,
         "importPath": "backend.app.services.parser",
         "description": "backend.app.services.parser",
-        "peekOfCode": "def split_into_chunks(text, chunk_size: int = 10000, chunk_overlap: int = 500):\n    text_splitter = RecursiveCharacterTextSplitter(\n        chunk_size = chunk_size, chunk_overlap=chunk_overlap\n    )\n    chunks = text_splitter.create_documents([text])\n    # chunk_texts = [chunk.page_content for chunk in chunks]\n    return chunks",
+        "peekOfCode": "def split_into_chunks(text, chunk_size: int = 10000, chunk_overlap: int = 500):\n    text_splitter = RecursiveCharacterTextSplitter(\n        chunk_size = chunk_size, chunk_overlap=chunk_overlap\n    )\n    chunks = text_splitter.create_documents([text])\n    # chunk_texts = [chunk.page_content for chunk in chunks]\n<<<<<<< HEAD\n    return chunks\n=======\n    return chunks",
         "detail": "backend.app.services.parser",
         "documentation": {}
     },
@@ -1075,11 +1155,38 @@
         "documentation": {}
     },
     {
+        "label": "heath",
+        "kind": 2,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "def heath():\n    return jsonify({\"Status\": \"Good\"})\n@app.route('/summarize', methods=['POST'])\ndef process_pdf():\n    print(\"Runnning well...\")\n    if 'file' not in request.files or 'language' not in request.form:\n        return jsonify({\"error\": \"Missing file or language\"}), 400\n    file = request.files['file']\n    language = request.form['language']\n    print(\"1. File uploaded...\")",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "process_pdf",
+        "kind": 2,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "def process_pdf():\n    print(\"Runnning well...\")\n    if 'file' not in request.files or 'language' not in request.form:\n        return jsonify({\"error\": \"Missing file or language\"}), 400\n    file = request.files['file']\n    language = request.form['language']\n    print(\"1. File uploaded...\")\n>>>>>>> 20d39cb1dd08c6d22eaf94805a2bbb79e3e659e0\n    c = time.time()\n    contents = extract_text_from_pdf(file)",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
         "label": "app",
         "kind": 5,
         "importPath": "backend.app.main",
         "description": "backend.app.main",
         "peekOfCode": "app = FastAPI()\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n@app.post(\"/summarize\")\nasync def process_pdf(file: UploadFile = File(...), language:str = Form(...)):",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "app = Flask(__name__)\nCORS(app)  # Enable CORS\n@app.route(\"/health\")\ndef heath():\n    return jsonify({\"Status\": \"Good\"})\n@app.route('/summarize', methods=['POST'])\ndef process_pdf():\n    print(\"Runnning well...\")\n    if 'file' not in request.files or 'language' not in request.form:\n        return jsonify({\"error\": \"Missing file or language\"}), 400",
         "detail": "backend.app.main",
         "documentation": {}
     },
