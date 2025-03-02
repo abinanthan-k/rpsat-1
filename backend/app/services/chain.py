@@ -10,9 +10,6 @@ import os
 
 
 load_dotenv()
-os.environ["GOOGLE_API_KEY"] = "AIzaSyC2cmL5YebUdImSqfft4G30geG2ivGZ3yc"
-os.environ["GROQ_API_KEY"] = "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"
-# os.environ["MISTRAL_API_KEY"] = "phyy8YjooDecGo9dXoawGzBrxN806qT0"
 
 
 llm = ChatGoogleGenerativeAI(
