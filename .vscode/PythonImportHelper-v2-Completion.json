@@ -1,5 +1,324 @@
 [
     {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "os.path",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.path",
+        "description": "os.path",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Container",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TextIO",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Container",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "ArgumentParser",
+        "importPath": "argparse",
+        "description": "argparse",
+        "isExtraImport": true,
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "pdfminer",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pdfminer",
+        "description": "pdfminer",
+        "detail": "pdfminer",
+        "documentation": {}
+    },
+    {
+        "label": "PDFDocument",
+        "importPath": "pdfminer.pdfdocument",
+        "description": "pdfminer.pdfdocument",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfdocument",
+        "documentation": {}
+    },
+    {
+        "label": "PDFNoOutlines",
+        "importPath": "pdfminer.pdfdocument",
+        "description": "pdfminer.pdfdocument",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfdocument",
+        "documentation": {}
+    },
+    {
+        "label": "PDFXRefFallback",
+        "importPath": "pdfminer.pdfdocument",
+        "description": "pdfminer.pdfdocument",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfdocument",
+        "documentation": {}
+    },
+    {
+        "label": "PDFPage",
+        "importPath": "pdfminer.pdfpage",
+        "description": "pdfminer.pdfpage",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfpage",
+        "documentation": {}
+    },
+    {
+        "label": "PDFParser",
+        "importPath": "pdfminer.pdfparser",
+        "description": "pdfminer.pdfparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfparser",
+        "documentation": {}
+    },
+    {
+        "label": "PDFObjectNotFound",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "PDFValueError",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "PDFStream",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "PDFObjRef",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "resolve1",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "stream_value",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "PSKeyword",
+        "importPath": "pdfminer.psparser",
+        "description": "pdfminer.psparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.psparser",
+        "documentation": {}
+    },
+    {
+        "label": "PSLiteral",
+        "importPath": "pdfminer.psparser",
+        "description": "pdfminer.psparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.psparser",
+        "documentation": {}
+    },
+    {
+        "label": "LIT",
+        "importPath": "pdfminer.psparser",
+        "description": "pdfminer.psparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.psparser",
+        "documentation": {}
+    },
+    {
+        "label": "isnumber",
+        "importPath": "pdfminer.utils",
+        "description": "pdfminer.utils",
+        "isExtraImport": true,
+        "detail": "pdfminer.utils",
+        "documentation": {}
+    },
+    {
+        "label": "AnyIO",
+        "importPath": "pdfminer.utils",
+        "description": "pdfminer.utils",
+        "isExtraImport": true,
+        "detail": "pdfminer.utils",
+        "documentation": {}
+    },
+    {
+        "label": "pdfminer.high_level",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pdfminer.high_level",
+        "description": "pdfminer.high_level",
+        "detail": "pdfminer.high_level",
+        "documentation": {}
+    },
+    {
+        "label": "LAParams",
+        "importPath": "pdfminer.layout",
+        "description": "pdfminer.layout",
+        "isExtraImport": true,
+        "detail": "pdfminer.layout",
+        "documentation": {}
+    },
+    {
         "label": "PromptTemplate",
         "importPath": "langchain_core.prompts",
         "description": "langchain_core.prompts",
@@ -37,6 +356,31 @@
         "description": "langchain_groq",
         "isExtraImport": true,
         "detail": "langchain_groq",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
         "documentation": {}
     },
     {
@@ -91,11 +435,12 @@
         "documentation": {}
     },
     {
-        "label": "config",
-        "importPath": "app.config",
-        "description": "app.config",
+        "label": "pdfplumber",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "app.config",
+        "importPath": "pdfplumber",
+        "description": "pdfplumber",
+        "detail": "pdfplumber",
         "documentation": {}
     },
     {
@@ -107,20 +452,92 @@
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "detail": "flask",
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
         "isExtraImport": true,
-        "detail": "dotenv",
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "CORS",
+        "importPath": "flask_cors",
+        "description": "flask_cors",
+        "isExtraImport": true,
+        "detail": "flask_cors",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_pdf",
+        "importPath": "services.parser",
+        "description": "services.parser",
+        "isExtraImport": true,
+        "detail": "services.parser",
+        "documentation": {}
+    },
+    {
+        "label": "split_into_chunks",
+        "importPath": "services.parser",
+        "description": "services.parser",
+        "isExtraImport": true,
+        "detail": "services.parser",
+        "documentation": {}
+    },
+    {
+        "label": "split_summaries",
+        "importPath": "services.chain",
+        "description": "services.chain",
+        "isExtraImport": true,
+        "detail": "services.chain",
+        "documentation": {}
+    },
+    {
+        "label": "prepare_final_summary",
+        "importPath": "services.chain",
+        "description": "services.chain",
+        "isExtraImport": true,
+        "detail": "services.chain",
+        "documentation": {}
+    },
+    {
+        "label": "return_closest_indices",
+        "importPath": "services.closest",
+        "description": "services.closest",
+        "isExtraImport": true,
+        "detail": "services.closest",
+        "documentation": {}
+    },
+    {
+        "label": "translate_text",
+        "importPath": "services.translator",
+        "description": "services.translator",
+        "isExtraImport": true,
+        "detail": "services.translator",
         "documentation": {}
     },
     {
@@ -148,12 +565,11 @@
         "documentation": {}
     },
     {
-        "label": "time",
-        "kind": 6,
+        "label": "Form",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -205,6 +621,262 @@
         "documentation": {}
     },
     {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "importlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib",
+        "description": "importlib",
+        "detail": "importlib",
+        "documentation": {}
+    },
+    {
+        "label": "util",
+        "importPath": "importlib",
+        "description": "importlib",
+        "isExtraImport": true,
+        "detail": "importlib",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "inspect",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "inspect",
+        "description": "inspect",
+        "detail": "inspect",
+        "documentation": {}
+    },
+    {
+        "label": "BaseHTTPRequestHandler",
+        "importPath": "http.server",
+        "description": "http.server",
+        "isExtraImport": true,
+        "detail": "http.server",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "escape",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.dumppdf",
+        "description": "backend..venv.Scripts.dumppdf",
+        "peekOfCode": "def escape(s: Union[str, bytes]) -> str:\n    if isinstance(s, bytes):\n        us = str(s, \"latin-1\")\n    else:\n        us = s\n    return ESC_PAT.sub(lambda m: \"&#%d;\" % ord(m.group(0)), us)\ndef dumpxml(out: TextIO, obj: object, codec: Optional[str] = None) -> None:\n    if obj is None:\n        out.write(\"<null />\")\n        return",
+        "detail": "backend..venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumpxml",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.dumppdf",
+        "description": "backend..venv.Scripts.dumppdf",
+        "peekOfCode": "def dumpxml(out: TextIO, obj: object, codec: Optional[str] = None) -> None:\n    if obj is None:\n        out.write(\"<null />\")\n        return\n    if isinstance(obj, dict):\n        out.write('<dict size=\"%d\">\\n' % len(obj))\n        for (k, v) in obj.items():\n            out.write(\"<key>%s</key>\\n\" % k)\n            out.write(\"<value>\")\n            dumpxml(out, v)",
+        "detail": "backend..venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumptrailers",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.dumppdf",
+        "description": "backend..venv.Scripts.dumppdf",
+        "peekOfCode": "def dumptrailers(\n    out: TextIO, doc: PDFDocument, show_fallback_xref: bool = False\n) -> None:\n    for xref in doc.xrefs:\n        if not isinstance(xref, PDFXRefFallback) or show_fallback_xref:\n            out.write(\"<trailer>\\n\")\n            dumpxml(out, xref.get_trailer())\n            out.write(\"\\n</trailer>\\n\\n\")\n    no_xrefs = all(isinstance(xref, PDFXRefFallback) for xref in doc.xrefs)\n    if no_xrefs and not show_fallback_xref:",
+        "detail": "backend..venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumpallobjs",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.dumppdf",
+        "description": "backend..venv.Scripts.dumppdf",
+        "peekOfCode": "def dumpallobjs(\n    out: TextIO,\n    doc: PDFDocument,\n    codec: Optional[str] = None,\n    show_fallback_xref: bool = False,\n) -> None:\n    visited = set()\n    out.write(\"<pdf>\")\n    for xref in doc.xrefs:\n        for objid in xref.get_objids():",
+        "detail": "backend..venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumpoutline",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.dumppdf",
+        "description": "backend..venv.Scripts.dumppdf",
+        "peekOfCode": "def dumpoutline(\n    outfp: TextIO,\n    fname: str,\n    objids: Any,\n    pagenos: Container[int],\n    password: str = \"\",\n    dumpall: bool = False,\n    codec: Optional[str] = None,\n    extractdir: Optional[str] = None,\n) -> None:",
+        "detail": "backend..venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "extractembedded",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.dumppdf",
+        "description": "backend..venv.Scripts.dumppdf",
+        "peekOfCode": "def extractembedded(fname: str, password: str, extractdir: str) -> None:\n    def extract1(objid: int, obj: Dict[str, Any]) -> None:\n        filename = os.path.basename(obj.get(\"UF\") or cast(bytes, obj.get(\"F\")).decode())\n        fileref = obj[\"EF\"].get(\"UF\") or obj[\"EF\"].get(\"F\")\n        fileobj = doc.getobj(fileref.objid)\n        if not isinstance(fileobj, PDFStream):\n            error_msg = (\n                \"unable to process PDF: reference for %r is not a \"\n                \"PDFStream\" % filename\n            )",
+        "detail": "backend..venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumppdf",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.dumppdf",
+        "description": "backend..venv.Scripts.dumppdf",
+        "peekOfCode": "def dumppdf(\n    outfp: TextIO,\n    fname: str,\n    objids: Iterable[int],\n    pagenos: Container[int],\n    password: str = \"\",\n    dumpall: bool = False,\n    codec: Optional[str] = None,\n    extractdir: Optional[str] = None,\n    show_fallback_xref: bool = False,",
+        "detail": "backend..venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "create_parser",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.dumppdf",
+        "description": "backend..venv.Scripts.dumppdf",
+        "peekOfCode": "def create_parser() -> ArgumentParser:\n    parser = ArgumentParser(description=__doc__, add_help=True)\n    parser.add_argument(\n        \"files\",\n        type=str,\n        default=None,\n        nargs=\"+\",\n        help=\"One or more paths to PDF files.\",\n    )\n    parser.add_argument(",
+        "detail": "backend..venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.dumppdf",
+        "description": "backend..venv.Scripts.dumppdf",
+        "peekOfCode": "def main(argv: Optional[List[str]] = None) -> None:\n    parser = create_parser()\n    args = parser.parse_args(args=argv)\n    if args.debug:\n        logging.getLogger().setLevel(logging.DEBUG)\n    if args.outfile == \"-\":\n        outfp = sys.stdout\n    else:\n        outfp = open(args.outfile, \"w\")\n    if args.objects:",
+        "detail": "backend..venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.dumppdf",
+        "description": "backend..venv.Scripts.dumppdf",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nESC_PAT = re.compile(r'[\\000-\\037&<>()\"\\042\\047\\134\\177-\\377]')\ndef escape(s: Union[str, bytes]) -> str:\n    if isinstance(s, bytes):\n        us = str(s, \"latin-1\")\n    else:\n        us = s\n    return ESC_PAT.sub(lambda m: \"&#%d;\" % ord(m.group(0)), us)\ndef dumpxml(out: TextIO, obj: object, codec: Optional[str] = None) -> None:\n    if obj is None:",
+        "detail": "backend..venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "ESC_PAT",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.dumppdf",
+        "description": "backend..venv.Scripts.dumppdf",
+        "peekOfCode": "ESC_PAT = re.compile(r'[\\000-\\037&<>()\"\\042\\047\\134\\177-\\377]')\ndef escape(s: Union[str, bytes]) -> str:\n    if isinstance(s, bytes):\n        us = str(s, \"latin-1\")\n    else:\n        us = s\n    return ESC_PAT.sub(lambda m: \"&#%d;\" % ord(m.group(0)), us)\ndef dumpxml(out: TextIO, obj: object, codec: Optional[str] = None) -> None:\n    if obj is None:\n        out.write(\"<null />\")",
+        "detail": "backend..venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "LITERAL_FILESPEC",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.dumppdf",
+        "description": "backend..venv.Scripts.dumppdf",
+        "peekOfCode": "LITERAL_FILESPEC = LIT(\"Filespec\")\nLITERAL_EMBEDDEDFILE = LIT(\"EmbeddedFile\")\ndef extractembedded(fname: str, password: str, extractdir: str) -> None:\n    def extract1(objid: int, obj: Dict[str, Any]) -> None:\n        filename = os.path.basename(obj.get(\"UF\") or cast(bytes, obj.get(\"F\")).decode())\n        fileref = obj[\"EF\"].get(\"UF\") or obj[\"EF\"].get(\"F\")\n        fileobj = doc.getobj(fileref.objid)\n        if not isinstance(fileobj, PDFStream):\n            error_msg = (\n                \"unable to process PDF: reference for %r is not a \"",
+        "detail": "backend..venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "LITERAL_EMBEDDEDFILE",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.dumppdf",
+        "description": "backend..venv.Scripts.dumppdf",
+        "peekOfCode": "LITERAL_EMBEDDEDFILE = LIT(\"EmbeddedFile\")\ndef extractembedded(fname: str, password: str, extractdir: str) -> None:\n    def extract1(objid: int, obj: Dict[str, Any]) -> None:\n        filename = os.path.basename(obj.get(\"UF\") or cast(bytes, obj.get(\"F\")).decode())\n        fileref = obj[\"EF\"].get(\"UF\") or obj[\"EF\"].get(\"F\")\n        fileobj = doc.getobj(fileref.objid)\n        if not isinstance(fileobj, PDFStream):\n            error_msg = (\n                \"unable to process PDF: reference for %r is not a \"\n                \"PDFStream\" % filename",
+        "detail": "backend..venv.Scripts.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "float_or_disabled",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pdf2txt",
+        "description": "backend..venv.Scripts.pdf2txt",
+        "peekOfCode": "def float_or_disabled(x: str) -> Optional[float]:\n    if x.lower().strip() == \"disabled\":\n        return None\n    try:\n        return float(x)\n    except ValueError:\n        raise argparse.ArgumentTypeError(\"invalid float value: {}\".format(x))\ndef extract_text(\n    files: Iterable[str] = [],\n    outfile: str = \"-\",",
+        "detail": "backend..venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pdf2txt",
+        "description": "backend..venv.Scripts.pdf2txt",
+        "peekOfCode": "def extract_text(\n    files: Iterable[str] = [],\n    outfile: str = \"-\",\n    laparams: Optional[LAParams] = None,\n    output_type: str = \"text\",\n    codec: str = \"utf-8\",\n    strip_control: bool = False,\n    maxpages: int = 0,\n    page_numbers: Optional[Container[int]] = None,\n    password: str = \"\",",
+        "detail": "backend..venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "create_parser",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pdf2txt",
+        "description": "backend..venv.Scripts.pdf2txt",
+        "peekOfCode": "def create_parser() -> argparse.ArgumentParser:\n    parser = argparse.ArgumentParser(description=__doc__, add_help=True)\n    parser.add_argument(\n        \"files\",\n        type=str,\n        default=None,\n        nargs=\"+\",\n        help=\"One or more paths to PDF files.\",\n    )\n    parser.add_argument(",
+        "detail": "backend..venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pdf2txt",
+        "description": "backend..venv.Scripts.pdf2txt",
+        "peekOfCode": "def parse_args(args: Optional[List[str]]) -> argparse.Namespace:\n    parsed_args = create_parser().parse_args(args=args)\n    # Propagate parsed layout parameters to LAParams object\n    if parsed_args.no_laparams:\n        parsed_args.laparams = None\n    else:\n        parsed_args.laparams = LAParams(\n            line_overlap=parsed_args.line_overlap,\n            char_margin=parsed_args.char_margin,\n            line_margin=parsed_args.line_margin,",
+        "detail": "backend..venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend..venv.Scripts.pdf2txt",
+        "description": "backend..venv.Scripts.pdf2txt",
+        "peekOfCode": "def main(args: Optional[List[str]] = None) -> int:\n    parsed_args = parse_args(args)\n    outfp = extract_text(**vars(parsed_args))\n    outfp.close()\n    return 0\nif __name__ == \"__main__\":\n    sys.exit(main())",
+        "detail": "backend..venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "OUTPUT_TYPES",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.pdf2txt",
+        "description": "backend..venv.Scripts.pdf2txt",
+        "peekOfCode": "OUTPUT_TYPES = ((\".htm\", \"html\"), (\".html\", \"html\"), (\".xml\", \"xml\"), (\".tag\", \"tag\"))\ndef float_or_disabled(x: str) -> Optional[float]:\n    if x.lower().strip() == \"disabled\":\n        return None\n    try:\n        return float(x)\n    except ValueError:\n        raise argparse.ArgumentTypeError(\"invalid float value: {}\".format(x))\ndef extract_text(\n    files: Iterable[str] = [],",
+        "detail": "backend..venv.Scripts.pdf2txt",
+        "documentation": {}
+    },
+    {
         "label": "split_summaries",
         "kind": 2,
         "importPath": "backend.app.services.chain",
@@ -223,11 +895,29 @@
         "documentation": {}
     },
     {
+        "label": "os.environ[\"GOOGLE_API_KEY\"]",
+        "kind": 5,
+        "importPath": "backend.app.services.chain",
+        "description": "backend.app.services.chain",
+        "peekOfCode": "os.environ[\"GOOGLE_API_KEY\"] = \"AIzaSyC2cmL5YebUdImSqfft4G30geG2ivGZ3yc\"\nos.environ[\"GROQ_API_KEY\"] = \"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\"\n# os.environ[\"MISTRAL_API_KEY\"] = \"phyy8YjooDecGo9dXoawGzBrxN806qT0\"\nllm = ChatGoogleGenerativeAI(\n    model=\"gemini-1.5-flash\",\n    temperature=0,\n    max_tokens=None,\n    timeout=None,\n    max_retries=2,\n)",
+        "detail": "backend.app.services.chain",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"GROQ_API_KEY\"]",
+        "kind": 5,
+        "importPath": "backend.app.services.chain",
+        "description": "backend.app.services.chain",
+        "peekOfCode": "os.environ[\"GROQ_API_KEY\"] = \"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\"\n# os.environ[\"MISTRAL_API_KEY\"] = \"phyy8YjooDecGo9dXoawGzBrxN806qT0\"\nllm = ChatGoogleGenerativeAI(\n    model=\"gemini-1.5-flash\",\n    temperature=0,\n    max_tokens=None,\n    timeout=None,\n    max_retries=2,\n)\n# llm = init_chat_model(\"mistral-large-latest\", model_provider=\"mistralai\")",
+        "detail": "backend.app.services.chain",
+        "documentation": {}
+    },
+    {
         "label": "llm",
         "kind": 5,
         "importPath": "backend.app.services.chain",
         "description": "backend.app.services.chain",
-        "peekOfCode": "llm = ChatGoogleGenerativeAI(\n    model=\"gemini-1.5-pro\",\n    temperature=0,\n    max_tokens=None,\n    timeout=None,\n    max_retries=2,\n)\ndef split_summaries(selected_indices, docs):\n    map_prompt = \"\"\"\n    You will receive a passage from a research paper enclosed in triple backticks (```).",
+        "peekOfCode": "llm = ChatGoogleGenerativeAI(\n    model=\"gemini-1.5-flash\",\n    temperature=0,\n    max_tokens=None,\n    timeout=None,\n    max_retries=2,\n)\n# llm = init_chat_model(\"mistral-large-latest\", model_provider=\"mistralai\")\ndef split_summaries(selected_indices, docs):\n    map_prompt = \"\"\"",
         "detail": "backend.app.services.chain",
         "documentation": {}
     },
@@ -277,6 +967,15 @@
         "documentation": {}
     },
     {
+        "label": "extract_text_from_pdf",
+        "kind": 2,
+        "importPath": "backend.app.services.parser",
+        "description": "backend.app.services.parser",
+        "peekOfCode": "def extract_text_from_pdf(pdf_file):\n    pdf_content = pdf_file.read()\n    # doc = fitz.open(stream=pdf_content)\n    # # text = \"\"\n    # # for page_num in range(doc.page_count):\n    # #     page = doc.load_page(page_num)  \n    # #     text += page.get_text()\n    # text = pymupdf4llm.to_markdown(doc)\n    # return text\n    text = \"\"",
+        "detail": "backend.app.services.parser",
+        "documentation": {}
+    },
+    {
         "label": "split_into_chunks",
         "kind": 2,
         "importPath": "backend.app.services.parser",
@@ -310,6 +1009,33 @@
         "description": "backend.app.services.translator",
         "peekOfCode": "langs_dict = GoogleTranslator().get_supported_languages(as_dict=True)\ndef translate_text(src, dest_lang):\n    obj = GoogleTranslator(source='auto', target=dest_lang)\n    words = list(src.split(\" \"))\n    result = []\n    index = 0\n    while index <= len(words):\n        text_needed = \" \".join(words[index:index+100])\n        result.append(obj.translate(text_needed))\n        index += 100",
         "detail": "backend.app.services.translator",
+        "documentation": {}
+    },
+    {
+        "label": "heath",
+        "kind": 2,
+        "importPath": "backend.app.app",
+        "description": "backend.app.app",
+        "peekOfCode": "def heath():\n    return jsonify({\"Status\": \"Good\"})\n@app.route('/summarize', methods=['POST'])\ndef process_pdf():\n    print(\"Runnning well...\")\n    if 'file' not in request.files or 'language' not in request.form:\n        return jsonify({\"error\": \"Missing file or language\"}), 400\n    file = request.files['file']\n    language = request.form['language']\n    print(\"1. File uploaded...\")",
+        "detail": "backend.app.app",
+        "documentation": {}
+    },
+    {
+        "label": "process_pdf",
+        "kind": 2,
+        "importPath": "backend.app.app",
+        "description": "backend.app.app",
+        "peekOfCode": "def process_pdf():\n    print(\"Runnning well...\")\n    if 'file' not in request.files or 'language' not in request.form:\n        return jsonify({\"error\": \"Missing file or language\"}), 400\n    file = request.files['file']\n    language = request.form['language']\n    print(\"1. File uploaded...\")\n    c = time.time()\n    contents = extract_text_from_pdf(file)\n    print(\"2. Content extracted...\")",
+        "detail": "backend.app.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.app.app",
+        "description": "backend.app.app",
+        "peekOfCode": "app = Flask(__name__)\nCORS(app)  # Enable CORS\n@app.route(\"/health\"):\ndef heath():\n    return jsonify({\"Status\": \"Good\"})\n@app.route('/summarize', methods=['POST'])\ndef process_pdf():\n    print(\"Runnning well...\")\n    if 'file' not in request.files or 'language' not in request.form:\n        return jsonify({\"error\": \"Missing file or language\"}), 400",
+        "detail": "backend.app.app",
         "documentation": {}
     },
     {
@@ -353,8 +1079,296 @@
         "kind": 5,
         "importPath": "backend.app.main",
         "description": "backend.app.main",
-        "peekOfCode": "app = FastAPI()\n@app.post(\"/summarize\")\nasync def process_pdf(file: UploadFile = File(...)):\n    c = time.time()\n    contents = await extract_text_from_pdf(file)\n    chunks = split_into_chunks(contents)\n    selected_indices = return_closest_indices(chunks)\n    summaries = split_summaries(selected_indices, chunks)\n    result = prepare_final_summary(summaries)\n    result = result[\"output_text\"]",
+        "peekOfCode": "app = FastAPI()\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n@app.post(\"/summarize\")\nasync def process_pdf(file: UploadFile = File(...), language:str = Form(...)):",
         "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "def stringify(value):\n    return _stringify(value, separators=(',', ':'))\nassert stringify([None, None]) == '[[null,null]]'\na = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "a = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['o']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "b = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['one']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['two']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['three']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['a']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['test']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['array']",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "a2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "o2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "str = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "oo",
+        "kind": 5,
+        "importPath": "frontend.node_modules.flatted.python.test",
+        "description": "frontend.node_modules.flatted.python.test",
+        "peekOfCode": "oo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "frontend.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "LambdaRequest",
+        "kind": 6,
+        "importPath": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "description": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "peekOfCode": "class LambdaRequest:\n    def __init__(self, path, data=None):\n        req = None\n        runtime_path = '/2018-06-01/runtime/'\n        url = (\n            'http://'\n            + os.environ.get(\n                'AWS_LAMBDA_RUNTIME_API', '127.0.0.1:3000'\n            )\n            + runtime_path",
+        "detail": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_runtime_next_invocation",
+        "kind": 2,
+        "importPath": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "description": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "peekOfCode": "def lambda_runtime_next_invocation():\n    res = LambdaRequest('invocation/next')\n    if res.status_code != 200:\n        raise Exception(\n            'Unexpected /invocation/next response: '\n            + res.body\n        )\n    x_amzn_trace_id = res.get_header('Lambda-Runtime-Trace-Id')\n    if x_amzn_trace_id != None:\n            os.environ['_X_AMZN_TRACE_ID'] = x_amzn_trace_id",
+        "detail": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_runtime_invoke_response",
+        "kind": 2,
+        "importPath": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "description": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "peekOfCode": "def lambda_runtime_invoke_response(result, context):\n    body = json.dumps(result, separators=(',', ':')).encode(\n        encoding='UTF-8'\n    )\n    res = LambdaRequest(\n        'invocation/'\n        + context['aws_request_id']\n        + '/response',\n        body,\n    )",
+        "detail": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_runtime_invoke_error",
+        "kind": 2,
+        "importPath": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "description": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "peekOfCode": "def lambda_runtime_invoke_error(err, context):\n    body = json.dumps(err, separators=(',', ':')).encode(\n        encoding='UTF-8'\n    )\n    res = LambdaRequest(\n        'invocation/'\n        + context['aws_request_id']\n        + '/error',\n        body,\n    )",
+        "detail": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_runtime_get_handler",
+        "kind": 2,
+        "importPath": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "description": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "peekOfCode": "def lambda_runtime_get_handler():\n    (module_name, handler_name) = os.environ['_HANDLER'].split('.')\n    mod = importlib.import_module(module_name)\n    # TODO: invoke `__init__`?\n    return getattr(mod, handler_name)\ndef lambda_runtime_main():\n    if not is_python_3:\n        reload(sys)\n        sys.setdefaultencoding('utf-8')\n    sys.path.insert(",
+        "detail": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_runtime_main",
+        "kind": 2,
+        "importPath": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "description": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "peekOfCode": "def lambda_runtime_main():\n    if not is_python_3:\n        reload(sys)\n        sys.setdefaultencoding('utf-8')\n    sys.path.insert(\n        0, os.environ.get('LAMBDA_TASK_ROOT', '/var/task')\n    )\n    fn = lambda_runtime_get_handler()\n    while True:\n        (event, context) = lambda_runtime_next_invocation()",
+        "detail": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "documentation": {}
+    },
+    {
+        "label": "is_python_3",
+        "kind": 5,
+        "importPath": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "description": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "peekOfCode": "is_python_3 = sys.version_info > (3, 0)\nif is_python_3:\n    import urllib.request\nelse:\n    import urllib2\nclass LambdaRequest:\n    def __init__(self, path, data=None):\n        req = None\n        runtime_path = '/2018-06-01/runtime/'\n        url = (",
+        "detail": "node_modules.@vercel.fun.dist.src.runtimes.python.bootstrap",
+        "documentation": {}
+    },
+    {
+        "label": "format_headers",
+        "kind": 2,
+        "importPath": "node_modules.@vercel.python.vc_init",
+        "description": "node_modules.@vercel.python.vc_init",
+        "peekOfCode": "def format_headers(headers, decode=False):\n    keyToList = {}\n    for key, value in headers.items():\n        if decode and 'decode' in dir(key) and 'decode' in dir(value):\n            key = key.decode()\n            value = value.decode()\n        if key not in keyToList:\n            keyToList[key] = []\n        keyToList[key].append(value)\n    return keyToList",
+        "detail": "node_modules.@vercel.python.vc_init",
+        "documentation": {}
+    },
+    {
+        "label": "__vc_spec",
+        "kind": 5,
+        "importPath": "node_modules.@vercel.python.vc_init",
+        "description": "node_modules.@vercel.python.vc_init",
+        "peekOfCode": "__vc_spec = util.spec_from_file_location(\"__VC_HANDLER_MODULE_NAME\", \"./__VC_HANDLER_ENTRYPOINT\")\n__vc_module = util.module_from_spec(__vc_spec)\nsys.modules[\"__VC_HANDLER_MODULE_NAME\"] = __vc_module\n__vc_spec.loader.exec_module(__vc_module)\n__vc_variables = dir(__vc_module)\n_use_legacy_asyncio = sys.version_info < (3, 10)\ndef format_headers(headers, decode=False):\n    keyToList = {}\n    for key, value in headers.items():\n        if decode and 'decode' in dir(key) and 'decode' in dir(value):",
+        "detail": "node_modules.@vercel.python.vc_init",
+        "documentation": {}
+    },
+    {
+        "label": "__vc_module",
+        "kind": 5,
+        "importPath": "node_modules.@vercel.python.vc_init",
+        "description": "node_modules.@vercel.python.vc_init",
+        "peekOfCode": "__vc_module = util.module_from_spec(__vc_spec)\nsys.modules[\"__VC_HANDLER_MODULE_NAME\"] = __vc_module\n__vc_spec.loader.exec_module(__vc_module)\n__vc_variables = dir(__vc_module)\n_use_legacy_asyncio = sys.version_info < (3, 10)\ndef format_headers(headers, decode=False):\n    keyToList = {}\n    for key, value in headers.items():\n        if decode and 'decode' in dir(key) and 'decode' in dir(value):\n            key = key.decode()",
+        "detail": "node_modules.@vercel.python.vc_init",
+        "documentation": {}
+    },
+    {
+        "label": "sys.modules[\"__VC_HANDLER_MODULE_NAME\"]",
+        "kind": 5,
+        "importPath": "node_modules.@vercel.python.vc_init",
+        "description": "node_modules.@vercel.python.vc_init",
+        "peekOfCode": "sys.modules[\"__VC_HANDLER_MODULE_NAME\"] = __vc_module\n__vc_spec.loader.exec_module(__vc_module)\n__vc_variables = dir(__vc_module)\n_use_legacy_asyncio = sys.version_info < (3, 10)\ndef format_headers(headers, decode=False):\n    keyToList = {}\n    for key, value in headers.items():\n        if decode and 'decode' in dir(key) and 'decode' in dir(value):\n            key = key.decode()\n            value = value.decode()",
+        "detail": "node_modules.@vercel.python.vc_init",
+        "documentation": {}
+    },
+    {
+        "label": "__vc_variables",
+        "kind": 5,
+        "importPath": "node_modules.@vercel.python.vc_init",
+        "description": "node_modules.@vercel.python.vc_init",
+        "peekOfCode": "__vc_variables = dir(__vc_module)\n_use_legacy_asyncio = sys.version_info < (3, 10)\ndef format_headers(headers, decode=False):\n    keyToList = {}\n    for key, value in headers.items():\n        if decode and 'decode' in dir(key) and 'decode' in dir(value):\n            key = key.decode()\n            value = value.decode()\n        if key not in keyToList:\n            keyToList[key] = []",
+        "detail": "node_modules.@vercel.python.vc_init",
+        "documentation": {}
+    },
+    {
+        "label": "_use_legacy_asyncio",
+        "kind": 5,
+        "importPath": "node_modules.@vercel.python.vc_init",
+        "description": "node_modules.@vercel.python.vc_init",
+        "peekOfCode": "_use_legacy_asyncio = sys.version_info < (3, 10)\ndef format_headers(headers, decode=False):\n    keyToList = {}\n    for key, value in headers.items():\n        if decode and 'decode' in dir(key) and 'decode' in dir(value):\n            key = key.decode()\n            value = value.decode()\n        if key not in keyToList:\n            keyToList[key] = []\n        keyToList[key].append(value)",
+        "detail": "node_modules.@vercel.python.vc_init",
         "documentation": {}
     }
 ]

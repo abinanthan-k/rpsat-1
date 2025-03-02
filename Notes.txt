@@ -1,3 +1,4 @@
 pip cache purge
 pip uninstall deep-translator fastapi uvicorn -y
 pip install deep-translator fastapi uvicorn
+

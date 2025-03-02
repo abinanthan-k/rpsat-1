@@ -3,17 +3,26 @@ from langchain.schema import Document
 from langchain.chains.summarize import load_summarize_chain
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_groq import ChatGroq
+from dotenv import load_dotenv
+import os
+# from langchain.chat_models import init_chat_model
 
 
+
+load_dotenv()
+os.environ["GOOGLE_API_KEY"] = "AIzaSyC2cmL5YebUdImSqfft4G30geG2ivGZ3yc"
+os.environ["GROQ_API_KEY"] = "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"
+# os.environ["MISTRAL_API_KEY"] = "phyy8YjooDecGo9dXoawGzBrxN806qT0"
 
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-1.5-pro",
+    model="gemini-1.5-flash",
     temperature=0,
     max_tokens=None,
     timeout=None,
     max_retries=2,
 )
+# llm = init_chat_model("mistral-large-latest", model_provider="mistralai")
 
 def split_summaries(selected_indices, docs):
     map_prompt = """
@@ -45,8 +54,8 @@ FULL SUMMARY:
         chunk_summary = map_chain.invoke([doc])
         chunk_summary = chunk_summary["output_text"]
         summary_list.append(chunk_summary)
-        print(len(chunk_summary))
-        print (f"Summary #{i} (chunk #{selected_indices[i]}) - Preview: {chunk_summary[:250]} \n")
+        # print(len(chunk_summary))
+        # print (f"Summary #{i} (chunk #{selected_indices[i]}) - Preview: {chunk_summary[:250]} \n")
     return summary_list
 
 def prepare_final_summary(summary_list):
@@ -75,8 +84,8 @@ VERBOSE SUMMARY:
                              chain_type="stuff",
                              prompt=combine_prompt_template,
                              verbose=False)
-    print("Runnning summaries....")
+    # print("Runnning summaries....")
     output = reduce_chain.invoke([summaries])
-    print(output)
+    # print(output)
     return output
     # return "\n".join(output.split("\n"))

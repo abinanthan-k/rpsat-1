@@ -1,15 +1,21 @@
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import pymupdf4llm
 import fitz
+import pdfplumber
 
-async def extract_text_from_pdf(pdf_file):
-    pdf_content = await pdf_file.read()
-    doc = fitz.open(stream=pdf_content)
-    # text = ""
-    # for page_num in range(doc.page_count):
-    #     page = doc.load_page(page_num)  
-    #     text += page.get_text()
-    text = pymupdf4llm.to_markdown(doc)
+def extract_text_from_pdf(pdf_file):
+    pdf_content = pdf_file.read()
+    # doc = fitz.open(stream=pdf_content)
+    # # text = ""
+    # # for page_num in range(doc.page_count):
+    # #     page = doc.load_page(page_num)  
+    # #     text += page.get_text()
+    # text = pymupdf4llm.to_markdown(doc)
+    # return text
+    text = ""
+    with pdfplumber.open(pdf_file) as pdf:
+        for page in pdf.pages:
+            text += page.extract_text() + "\n"
     return text
 
 
